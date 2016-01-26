@@ -14,7 +14,7 @@ elif [ "$VIRTUAL_ENV" != "`pwd`/.venv" ]; then
 fi
 
 echo "Cleaning pyc files..."
-./pyclean.sh
+./scrips/pyclean.sh
 echo "Installing/updating requirements..."
 pip install -r requirements/dev.txt
 cd proj/site_a
